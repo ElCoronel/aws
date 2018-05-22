@@ -3,7 +3,7 @@
 # ./shellz.sh <start/stop>
         case "$1" in
                 "start")
-                        if [ -f /home/kfc/ami.out ]; then
+                        if [ -f ami.out ]; then
                                 echo "ami.out exists, is there an ec2 already running?"
                                 exit 1
                         else
